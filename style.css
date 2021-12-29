@@ -1,3 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+
+* {
+  font-family: 'DM Sans', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
 .animation {
   display: flex;
   flex-direction: column;
@@ -25,9 +36,6 @@
   padding: 1.5rem;
   width: 30rem;
   color: transparent;
-}
-
-.things {
 }
 
 .outer {
@@ -61,4 +69,9 @@ img:hover {
 
 video {
   width: 95%;
+}
+
+.heading {
+  position: absolute;
+  top: 2rem;
 }
